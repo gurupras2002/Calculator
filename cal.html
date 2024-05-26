@@ -1,0 +1,68 @@
+<html>
+    <head>
+       <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Main container to center the calculator -->
+        <div class="container">
+	    <!-- Calculator box -->
+            <div class="calculator">
+		<!-- Form to handle input and display -->
+                <form>
+		    <!-- Display area for showing input and results -->
+                    <div class="display">
+                        <input type="text" name="display">
+                    </div>
+		    <!-- Buttons for the calculator -->
+                    <div>
+			<!-- Clear button to reset the display -->
+                        <input type="button" value="AC"onclick="display.value =''" class="operator">
+			<!-- Delete button to remove the last character from the display -->
+                        <input type="button" value="DE"onclick="display.value display.value.toString().slice(0,-1)"class="operator">
+			<!-- Decimal point button -->
+                        <input type="button" value="."onclick="display.value +='.'"class="operator">
+			<!-- Division operator button -->
+                        <input type="button" value="/"onclick="display.value +='/'"class="operator">
+                    </div>
+                    <div>
+                        <input type="button" value="7" onclick="display.value +='7'">
+                        <input type="button" value="8"onclick="display.value +='8'">
+                        <input type="button" value="9"onclick="display.value +='9'">
+			<!-- Multiplication operator button -->
+                        <input type="button" value="*"onclick="display.value +='*'"class="operator">
+                    </div>
+                    <div>
+			<!-- Digit buttons -->
+                        <input type="button" value="4"onclick="display.value +='4'">
+                        <input type="button" value="5"onclick="display.value +='5'">
+                        <input type="button" value="6"onclick="display.value +='6'">
+			<!-- Subtraction operator button -->
+                        <input type="button" value="-"onclick="display.value +='-'"class="operator">
+                    </div>
+                    <div>
+			<!-- Digit buttons -->
+                        <input type="button" value="1"onclick="display.value +='1'">
+                        <input type="button" value="2"onclick="display.value +='2'">
+                        <input type="button" value="3"onclick="display.value +='3'">
+			<!-- Addition operator button -->
+                        <input type="button" value="+"onclick="display.value +='+'"class="operator">
+                    </div>
+                    <div>
+			<!-- Digit buttons -->
+                        <input type="button" value="00"onclick="display.value +='00'">
+                        <input type="button" value="0"onclick="display.value +='0'">
+			<!-- Equals button to evaluate the expression -->
+                        <input type="button" value="=" value="=" onclick="display.value=eval(display.value)" class="equal operator">
+                    </div>
+                </form>
+            </div>
+        </div>
+    
+    </body>
+        
+       
+</html>

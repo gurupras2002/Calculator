@@ -1,0 +1,46 @@
+Overview
+This project is a simple web-based calculator built using HTML, CSS, and JavaScript. The calculator supports basic arithmetic operations and includes additional features such as clear, delete, and decimal point input.
+
+Features
+Basic Arithmetic Operations: Perform addition (+), subtraction (-), multiplication (*), and division (/).
+Clear (AC): Resets the display to an empty state.
+Delete (DE): Removes the last character from the display.
+Decimal Point (.): Adds a decimal point to the current number in the display.
+Equals (=): Evaluates the expression currently shown in the display.
+Usage Instructions
+Opening the Calculator
+Ensure you have the index.html and style.css files in the same directory.
+Open the index.html file in a web browser.
+Performing Calculations
+Entering Numbers:
+
+Click the number buttons (0-9) to input numbers.
+Use the 00 button to quickly add double zeros.
+Performing Operations:
+
+Click the +, -, *, or / buttons to add the respective operator to the display.
+Using the Decimal Point:
+
+Click the . button to add a decimal point to the current number.
+Evaluating the Expression:
+
+Click the = button to evaluate the expression shown in the display. The result will be displayed immediately.
+Clearing the Display:
+
+Click the AC button to clear the entire display.
+Deleting the Last Character:
+
+Click the DE button to remove the last character from the display.
+Example Calculations
+Addition:
+
+Enter 5, click +, enter 3, and click = to get 8.
+Subtraction:
+
+Enter 9, click -, enter 4, and click = to get 5.
+Multiplication:
+
+Enter 7, click *, enter 6, and click = to get 42.
+Division:
+
+Enter 8, click /, enter 2, and click = to get 4.
